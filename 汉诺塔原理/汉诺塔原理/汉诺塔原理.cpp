@@ -1,6 +1,8 @@
 ﻿/*
 程序名：汉诺塔原理.cpp
 程序功能：若干的圆盘按一定规则挪到另一根柱子上
+作者：陆宣臣
+日期：2023.4.10
 */
 #include <iostream>
 using namespace std;
