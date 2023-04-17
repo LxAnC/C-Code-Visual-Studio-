@@ -19,7 +19,7 @@ int su(int x)
 }
 int main()
 {
-	int a, b, c;
+	int a, b, c=0;
 	cout << "请输入两个数;" << endl;
 	cin >> a >> b;
 	cout << "输出他们之间的素数" << endl;
@@ -30,7 +30,12 @@ int main()
 	while(a<=b)
 	{
 		if (su(a) == 1)
-			cout << a << " ";
+		{
+			c++;cout << a << " ";
+			if (c % 6 == 0)
+				cout << endl;
+				
+		}
 		a++;
 	}
 	return 0;
