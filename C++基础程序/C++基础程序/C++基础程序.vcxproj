@@ -148,7 +148,9 @@
     <ClCompile Include="..\..\找出数组重复数(4种)\找出数组重复数(4种)\哈希等四种算法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\最大公约数最小公倍数\最大公约数最小公倍数\最大公约数最小公倍数.cpp" />
+    <ClCompile Include="..\..\最大公约数最小公倍数\最大公约数最小公倍数\最大公约数最小公倍数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\杨辉三角\杨辉三角\杨辉三角.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -179,6 +181,13 @@
     <ClCompile Include="..\..\默认值函数求圆面积\默认值函数求圆面积\求圆面积.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="标准类的Date.cpp" />
+    <ClCompile Include="类与对象实现年月日.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

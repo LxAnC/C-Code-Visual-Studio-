@@ -1,1 +1,11 @@
-﻿  C++基础程序.vcxproj -> D:\Github库\C-Code\C++基础程序\x64\Debug\C++基础程序.exe
+﻿  标准类的Date.cpp
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(5,10): error C2228: “.output”的左边必须有类/结构/联合
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(12,19): error C2512: “Date”: 没有合适的默认构造函数可用
+D:\Github库\C-Code\C++基础程序\C++基础程序\cout.h(3,7): message : 参见“Date”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(16,18): error C2512: “Date”: 没有合适的默认构造函数可用
+D:\Github库\C-Code\C++基础程序\C++基础程序\cout.h(3,7): message : 参见“Date”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,21): error C2677: 二进制“-”: 没有找到接受“Date”类型的全局运算符(或没有可接受的转换)
+D:\visual studio\VC\Tools\MSVC\14.34.31933\include\xutility(3649,30): message : 可能是“unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,16): message : “unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“Date (void)”推导出“const std::move_iterator<_Iter> &”的 模板 参数
+D:\visual studio\VC\Tools\MSVC\14.34.31933\include\xutility(1483,5): message : 或    “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,16): message : “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“Date (void)”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数

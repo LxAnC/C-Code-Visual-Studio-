@@ -69,5 +69,16 @@
     <ClCompile Include="..\..\从键盘上输入一行字符，按照从小到大输出\从键盘上输入一行字符，按照从小到大输出\从键盘上输入一行字符，按照从小到大输出.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="类与对象实现年月日.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="标准类的Date.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
