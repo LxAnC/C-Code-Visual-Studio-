@@ -13,6 +13,7 @@ public:
 	void xj1(int, int);
 	void xj2(int, int);
 	void sc(int, int, int);
+	int tomorrow();
 };
 void Date::sDate() {
 	cin >> year_ >> month_ >> day_;

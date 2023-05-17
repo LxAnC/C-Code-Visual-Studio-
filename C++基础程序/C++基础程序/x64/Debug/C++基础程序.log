@@ -1,11 +1,61 @@
-﻿  标准类的Date.cpp
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(5,10): error C2228: “.output”的左边必须有类/结构/联合
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(12,19): error C2512: “Date”: 没有合适的默认构造函数可用
-D:\Github库\C-Code\C++基础程序\C++基础程序\cout.h(3,7): message : 参见“Date”的声明
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(16,18): error C2512: “Date”: 没有合适的默认构造函数可用
-D:\Github库\C-Code\C++基础程序\C++基础程序\cout.h(3,7): message : 参见“Date”的声明
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,21): error C2677: 二进制“-”: 没有找到接受“Date”类型的全局运算符(或没有可接受的转换)
-D:\visual studio\VC\Tools\MSVC\14.34.31933\include\xutility(3649,30): message : 可能是“unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,16): message : “unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“Date (void)”推导出“const std::move_iterator<_Iter> &”的 模板 参数
-D:\visual studio\VC\Tools\MSVC\14.34.31933\include\xutility(1483,5): message : 或    “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
-D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(19,16): message : “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“Date (void)”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数
+﻿  func.cpp
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(3,7): error C2533: “Date::{ctor}”: 构造函数不能有返回类型
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(31,12): error C2146: 语法错误: 缺少“;”(在标识符“tomorrow”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(31,21): error C2059: 语法错误:“)”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(31,23): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(31,23): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(48,11): error C3861: “isLeapYear”: 找不到标识符
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(52,27): error C2065: “month”: 未声明的标识符
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(55,20): error C2065: “day”: 未声明的标识符
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(58,15): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(58,3): error C2086: “int Date”: 重定义
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(31,7): message : 参见“Date”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(58,8): error C2146: 语法错误: 缺少“;”(在标识符“addDays”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(58,26): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(58,26): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(77,21): error C2473: “operator -”: 看起来像函数定义，但却没有参数列表。
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(77,23): error C2065: “other”: 未声明的标识符
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(77,30): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(79,7): error C2059: 语法错误:“if”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(79,25): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(79,25): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(83,24): error C2065: “other”: 未声明的标识符
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,7): error C2059: 语法错误:“for”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,7): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,25): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,25): error C2059: 语法错误:“<”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,39): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,39): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,38): error C2086: “int i”: 重定义
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,23): message : 参见“i”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,39): error C2059: 语法错误:“++”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,41): error C2059: 语法错误:“)”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,43): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,43): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,7): error C2059: 语法错误:“for”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,7): error C2143: 语法错误: 缺少“)”(在“;”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,25): error C2143: 语法错误: 缺少“;”(在“<”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,25): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,23): error C2086: “int i”: 重定义
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,23): message : 参见“i”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,25): error C2059: 语法错误:“<”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,45): error C2143: 语法错误: 缺少“;”(在“++”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,45): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,44): error C2086: “int i”: 重定义
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(84,23): message : 参见“i”的声明
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,45): error C2059: 语法错误:“++”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,47): error C2059: 语法错误:“)”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,49): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(87,49): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(90,7): error C2059: 语法错误:“return”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(91,3): error C2059: 语法错误:“}”
+D:\Github库\C-Code\C++基础程序\C++基础程序\func.cpp(91,3): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+  标准类的Date.cpp
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(3,1): error C2628: “Date”后面接“int”是非法的(是否忘记了“;”?)
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(3,5): error C3874: “main”的返回类型应为“int”而非“Date”
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(12,19): error C2440: “初始化”: 无法从“int”转换为“Date”
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(12,19): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(22,5): error C2440: “return”: 无法从“int”转换为“Date”
+D:\Github库\C-Code\C++基础程序\C++基础程序\标准类的Date.cpp(22,5): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+  正在生成代码...

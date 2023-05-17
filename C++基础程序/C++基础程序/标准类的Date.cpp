@@ -9,8 +9,8 @@ int main() {
     else {
         cout << "2022年不是闰年" << endl;
     }
-    Date tomorrow = date.tomorrow();
-    tomorrow.output();
+    int tomorrow = date.tomorrow();
+    date.tomorrow().output();
     int dayOfYear = date.dayOfYear();
     cout << "2022年的第" << dayOfYear << "天" << endl;
     Date newDate = date.addDays(10);
