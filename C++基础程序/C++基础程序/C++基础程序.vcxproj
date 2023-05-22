@@ -181,11 +181,16 @@
     <ClCompile Include="..\..\默认值函数求圆面积\默认值函数求圆面积\求圆面积.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="func.cpp" />
-    <ClCompile Include="标准类的Date.cpp" />
+    <ClCompile Include="func.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="标准类的Date.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="类与对象实现年月日.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="系统界面.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cout.h" />
