@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include <deque>
-#include <algorithm> //标准算法头文件
+#include <algorithm> 
 
 
 void printDeque(const deque<int>&d)
