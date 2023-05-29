@@ -1,0 +1,4 @@
+﻿  main.cpp
+  text1.cpp
+D:\Github库\C-Code\实验 继承与多态\实验 继承与多态\text1.cpp(20,9): error C2600: “Grades::Grades”: 不能定义编译器生成的特殊成员函数(必须首先在类中声明)
+  正在生成代码...
