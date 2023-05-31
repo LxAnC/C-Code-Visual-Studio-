@@ -21,10 +21,22 @@
     <ClCompile Include="text1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="gpt4.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tete.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="student.h">
-      <Filter>源文件</Filter>
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="foreign.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

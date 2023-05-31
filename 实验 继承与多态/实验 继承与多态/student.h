@@ -1,28 +1,23 @@
 #include<iostream>
+#include<string>
 using namespace std;
 class StudentInfo{
 public:
-	StudentInfo();
-	~StudentInfo();
-	friend double Grades::show();
+	void student();
+	void show();
+	void input();
 private:
-	string name;
-	string id;
-	string sname;
+	string m_name;
+	string m_id;
+	string m_major;
 };
 class Grades:public StudentInfo{
 public:
-	Grades();
-	~Grades();
-	void show();
-	double getAverage(double);
-	double Sort();
+	void cin1();
+	void sh();
+	double getAverage();
+	friend void Sort(Grades s []);
 private:
-	double s1;
-	double s2;
-	double s3;
-	double s4;
-	double s5;
-	double s6;
+	double c[6];
 	double avg;
 };

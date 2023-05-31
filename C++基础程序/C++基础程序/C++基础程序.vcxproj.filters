@@ -78,7 +78,7 @@
     <ClCompile Include="func.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="系统界面.cpp">
+    <ClCompile Include="test1cpp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

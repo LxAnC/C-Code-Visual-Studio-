@@ -1,5 +1,1 @@
-﻿  系统界面.cpp
-系统界面.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Student::Student(void)" (??0Student@@QEAA@XZ)，函数 main 中引用了该符号
-系统界面.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Student::~Student(void)" (??1Student@@QEAA@XZ)，函数 main 中引用了该符号
-系统界面.obj : error LNK2001: 无法解析的外部符号 "public: static int Student::count" (?count@Student@@2HA)
-D:\Github库\C-Code\C++基础程序\x64\Debug\C++基础程序.exe : fatal error LNK1120: 3 个无法解析的外部命令
+﻿  C++基础程序.vcxproj -> D:\Github库\C-Code\C++基础程序\x64\Debug\C++基础程序.exe
