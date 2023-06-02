@@ -18,5 +18,20 @@
     <ClCompile Include="继承定义.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="继承方式.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="继承中的对象模型.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="同名情况.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="多继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="菱形继承.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

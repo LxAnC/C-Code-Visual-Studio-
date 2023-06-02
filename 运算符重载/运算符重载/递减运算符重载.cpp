@@ -13,6 +13,7 @@ public:
 		y--;
 		return *this;
 	}
+	//ºóÖÃ--ÔËËã·û
 	person operator--(int)
 	{
 		person p = *this;
