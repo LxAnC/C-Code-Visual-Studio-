@@ -1,16 +1,4 @@
 #include"head.h"
-template<class T>
-T max(T a, T b) {
-	if (a > b)
-		return a;
-	return b;
-}
-template<class T>
-T min(T a, T b) {
-	if (a < b)
-		return a;
-	return b;
-}
 int main() {
 	int a = 2, b = 3;
 	float x = 5.8, y = 9.99;
