@@ -15,8 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="多态的基本概念.cpp">
+    <ClCompile Include="虚函数以及纯虚函数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="多态案例之制作饮品.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="虚析构和纯虚析构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lxc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
