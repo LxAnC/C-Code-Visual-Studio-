@@ -133,7 +133,7 @@
     <ClCompile Include="虚函数以及纯虚函数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="虚析构和纯虚析构.cpp" />
+    <ClCompile Include="虚析构与纯虚析构.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lxc.h" />
