@@ -18,22 +18,19 @@
     <ClCompile Include="system.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="func.cpp">
+    <ClCompile Include="StudentMenu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="fly.h">
+    <ClInclude Include="system.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="fly2.h">
+    <ClInclude Include="File.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="system1.h">
+    <ClInclude Include="User.h">
       <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Menu_main.cpp">
-      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

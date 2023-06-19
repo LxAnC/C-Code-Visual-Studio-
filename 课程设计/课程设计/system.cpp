@@ -1,53 +1,70 @@
-#include"fly.h"
-#include"fly2.h"
-#include"system1.h"
-#include "Menu_main.cpp"
-#include<mysql.h>
-#include<stdio.h>//mysql 文件
+#include"system.h"
+int Login()
+{
+	int i;
+	cout << "                                                                      " << endl;
+	cout << "                                                                      " << endl;
+	cout << "                                                                      " << endl;
+	cout << "       ******************************************************         " << endl;
+	cout << "       **********************梦厅预约系统********************         " << endl;
+	cout << "       ***                                                ***         " << endl;
+	cout << "       ***                   作者：LxAnC                  ***         " << endl;
+	cout << "       ***                                                ***         " << endl;
+	cout << "       ***                 请选择你登录的方式             ***         " << endl;
+	cout << "       ***                                                ***         " << endl;
+	cout << "       ***                 1.学生     2.管理员            ***         " << endl;
+	cout << "       ***                                                ***         " << endl;
+	cout << "       ******************************************************         " << endl;
+	cout << "       ******************************************************         " << endl;
+	cout << "                                                                      " << endl;
+	cout << "                                                                      " << endl;
+	cout << "请输入你的用户类型：" << endl;
+	cin >> i;
+	return i;
+}
+void Begin()
+{
+	Login();
+	return;
+}
 int main()
 {
-	MYSQL mysql;//数据库句柄
-	MYSQL_RES* res;//查询结果集
-	MYSQL_ROW row;//记录结构体
-
-	//初始化数据库
-	mysql_init(&mysql);
-
-	//设置字符编码
-	mysql_options(&mysql, MYSQL_SET_CHARSET_NAME, "gbk");
-
-	//连接数据库
-//这里需要输入自己的本机名和密码，若全为默认，只需更改*处为自己的密码以及”xsgl“处改成自己创建的数据库即可
-	if (mysql_real_connect(&mysql, "127.0.0.1", "root",
-		"123456", "mydb3", 3306, NULL, 0) == NULL) {
-		printf("错误原因: %s\n", mysql_error(&mysql));
-		printf("连接失败！\n");
-		exit(-1);
-	}
-
-	//查询数据
- //student为xsgl数据库中存在的表
-	int ret = mysql_query(&mysql, "select * from student;");
-	printf("ret: %d\n", ret);
-
-	//获取结果集
-	res = mysql_store_result(&mysql);
-
-	//给ROW赋值,判断ROW是否为空，不为空就打印数据。
-	while (row = mysql_fetch_row(res))
+	int UserSelect;
+	while (1)
 	{
-		printf("%s ", row[0]);//学号
-		printf("%s ", row[1]);//姓名
-		printf("%s ", row[2]);//性别
-		printf("%s ", row[3]);//年龄
-		printf("%s \n", row[4]);//籍贯
+		cout << "======================  欢迎来到重师梦厅预约系统  ====================="
+			<< endl;
+		cout << endl << "请输入您的身份" << endl;
+		cout << "\t\t -------------------------------\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t|          1.学    生           |\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t|          2.管 理 员           |\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t|          0.退    出           |\n";
+		cout << "\t\t|                               |\n";
+		cout << "\t\t -------------------------------\n";
+		cout << "输入您的选择: ";
+		cin >> UserSelect;
+		switch (UserSelect)
+		{
+		case 1:
+			break;
+		case 2:
+			break;
+		case 0:
+			cout << "欢迎下一次使用" << endl;
+			system("pause");
+			return 0;
+			break;
+		default:
+			cout << "输入有误，请重新选择！" << endl;
+			system("pause");
+			system("cls");
+		}
 	}
-	//释放结果集
-	mysql_free_result(res);
-
-	//关闭数据库
-	mysql_close(&mysql);
-
 	system("pause");
 	return 0;
 }

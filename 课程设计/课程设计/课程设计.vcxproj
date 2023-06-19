@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StudentMenu.cpp" />
+    <ClCompile Include="system.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="File.h" />
+    <ClInclude Include="system.h" />
+    <ClInclude Include="User.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -131,16 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="system.cpp" />
-    <ClCompile Include="func.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="fly.h" />
-    <ClInclude Include="fly2.h" />
-    <ClInclude Include="Menu_main.cpp" />
-    <ClInclude Include="system1.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
