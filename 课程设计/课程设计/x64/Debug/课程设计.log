@@ -1,2 +1,5 @@
-﻿  system.cpp
+﻿  Admin.cpp
+D:\Github库\C-Code\课程设计\课程设计\Admin.cpp(4,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  系统界面.cpp
+  正在生成代码...
   课程设计.vcxproj -> D:\Github库\C-Code\课程设计\x64\Debug\课程设计.exe

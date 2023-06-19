@@ -19,12 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StudentMenu.cpp" />
-    <ClCompile Include="system.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="ReserveFile.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="系统界面.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="File.h" />
-    <ClInclude Include="system.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="globalFile.h" />
+    <ClInclude Include="ReserveFile.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="studyhallseats.h" />
     <ClInclude Include="User.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

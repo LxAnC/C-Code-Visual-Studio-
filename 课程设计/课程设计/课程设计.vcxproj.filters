@@ -15,21 +15,36 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="system.cpp">
+    <ClCompile Include="系统界面.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="StudentMenu.cpp">
+    <ClCompile Include="Student.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Admin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ReserveFile.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="system.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="File.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="User.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Student.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Admin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="globalFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="studyhallseats.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ReserveFile.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
