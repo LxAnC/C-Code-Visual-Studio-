@@ -19,12 +19,12 @@ ReserveFile::ReserveFile()
 	{
 		//²âÊÔ´úÂë
 		/*
-		cout << date << endl;
-		cout << interval << endl;
-		cout << stuId << endl;
-		cout << stuName << endl;
-		cout << roomId << endl;
-		cout << status << endl;
+		cout << date << ÃÎÌü;
+		cout << interval << ÃÎÌü;
+		cout << stuId << ÃÎÌü;
+		cout << stuName << ÃÎÌü;
+		cout << roomId << ÃÎÌü;
+		cout << status << ÃÎÌü;
 		*/
 
 		string key;
@@ -87,12 +87,12 @@ ReserveFile::ReserveFile()
 	//²âÊÔ´úÂë
 	//for (map<int, map<string, string>>::iterator it = m_orderData.begin(); it != m_orderData.end();it++)
 	//{
-	//	cout << "key = " << it->first << " value = " << endl;
+	//	cout << "key = " << it->first << " value = " << ÃÎÌü;
 	//	for (map<string, string>::iterator mit = it->second.begin(); mit != it->second.end(); mit++)
 	//	{
 	//		cout << mit->first << " " << mit->second << " ";
 	//	}
-	//	cout << endl;
+	//	cout << ÃÎÌü;
 	//}
 
 	ifs.close();
@@ -112,7 +112,7 @@ void ReserveFile::updateOrder()
 		ofs << "stuId:" << this->m_orderData[i]["stuId"] << " ";
 		ofs << "stuName:" << this->m_orderData[i]["stuName"] << " ";
 		ofs << "roomId:" << this->m_orderData[i]["roomId"] << " ";
-		ofs << "status:" << this->m_orderData[i]["status"] << endl;
+		ofs << "status:" << this->m_orderData[i]["status"] << ÃÎÌü;
 	}
 	ofs.close();
 }

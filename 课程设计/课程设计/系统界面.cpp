@@ -64,9 +64,9 @@ void AdminMenu(User *& admin)
 			cout << "查看账号" << endl;
 			man->showPerson();
 		}
-		else if (select == 3) //查看机房
+		else if (select == 3) //查看梦厅
 		{
-			cout << "查看机房" << endl;
+			cout << "查看梦厅" << endl;
 			man->showComputer();
 		}
 		else if (select == 4) //清空预约

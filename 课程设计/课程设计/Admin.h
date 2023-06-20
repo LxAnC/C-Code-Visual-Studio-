@@ -13,7 +13,7 @@ public:
 	virtual void operMenu();//选择菜单
 	void addPerson();//添加账号
 	void showPerson();//查看账号
-	void showComputer();//查看机房信息
+	void showComputer();//查看预约信息
 	void cleanFile();//清空预约记录
 	int m_EmpId; //管理员编号
 	//初始化容器
