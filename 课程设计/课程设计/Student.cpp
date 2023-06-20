@@ -87,10 +87,10 @@ void Student::applyOrder()
 		cout << "输入有误，请重新输入" << endl;
 	}
 
-	cout << "请选择机房：" << endl;
-	cout << "1号机房容量：" << vDes[0].m_MaxNum << endl;
-	cout << "2号机房容量：" << vDes[1].m_MaxNum << endl;
-	cout << "3号机房容量：" << vDes[2].m_MaxNum << endl;
+	cout << "请选择梦厅：" << endl;
+	cout << "1号梦厅容量：" << vDes[0].m_MaxNum << endl;
+	cout << "2号梦厅容量：" << vDes[1].m_MaxNum << endl;
+	cout << "3号梦厅容量：" << vDes[2].m_MaxNum << endl;
 
 	while (true)
 	{
@@ -135,7 +135,7 @@ void Student::showMyOrder()
 			{
 				cout << "预约日期： 周" << of.m_orderData[i]["date"];
 				cout << " 时段：" << (of.m_orderData[i]["interval"] == "1" ? "上午" : "下午");
-				cout << " 机房：" << of.m_orderData[i]["roomId"];
+				cout << " 梦厅：" << of.m_orderData[i]["roomId"];
 				string status = " 状态： ";  // 0 取消的预约   1 审核中   2 已预约 -1 预约失败
 				if (of.m_orderData[i]["status"] == "1")
 				{
@@ -183,7 +183,7 @@ void Student::showAllOrder()
 		cout << " 时段：" << (of.m_orderData[i]["interval"] == "1" ? "上午" : "下午");
 		cout << " 学号：" << of.m_orderData[i]["stuId"];
 		cout << " 姓名：" << of.m_orderData[i]["stuName"];
-		cout << " 机房：" << of.m_orderData[i]["roomId"];
+		cout << " 梦厅：" << of.m_orderData[i]["roomId"];
 		string status = " 状态： ";  // 0 取消的预约   1 审核中   2 已预约 -1 预约失败
 		if (of.m_orderData[i]["status"] == "1")
 		{
@@ -233,7 +233,7 @@ void Student::cancelOrder()
 				cout << index++ << "、 ";
 				cout << "预约日期： 周" << of.m_orderData[i]["date"];
 				cout << " 时段：" << (of.m_orderData[i]["interval"] == "1" ? "上午" : "下午");
-				cout << " 机房：" << of.m_orderData[i]["roomId"];
+				cout << " 梦厅：" << of.m_orderData[i]["roomId"];
 				string status = " 状态： ";  // 0 取消的预约   1 审核中   2 已预约  -1 预约失败
 				if (of.m_orderData[i]["status"] == "1")
 				{
