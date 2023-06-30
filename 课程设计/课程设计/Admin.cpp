@@ -24,7 +24,7 @@ Admin::Admin(string name, string pwd)
 	{
 		vSeats.push_back(c);
 	}
-	cout << "当前梦厅座位数量为： " << vSeats.size() << 梦厅;
+	cout << "当前梦厅座位数量为： " << vSeats.size() << endl;
 
 	ifs.close();
 }
@@ -32,14 +32,14 @@ Admin::Admin(string name, string pwd)
 //选择菜单
 void Admin::operMenu()
 {
-	cout << "欢迎管理员：" << this->m_Name << "登录！" << 梦厅;
+	cout << "欢迎管理员：" << this->m_Name << "登录！" << endl;
 	cout << "\t\t ---------------------------------\n";
 	cout << "\t\t|                                |\n";
 	cout << "\t\t|          1.添加账号            |\n";
 	cout << "\t\t|                                |\n";
 	cout << "\t\t|          2.查看账号            |\n";
 	cout << "\t\t|                                |\n";
-	cout << "\t\t|          3.查看机房            |\n";
+	cout << "\t\t|          3.查看梦厅            |\n";
 	cout << "\t\t|                                |\n";
 	cout << "\t\t|          4.清空预约            |\n";
 	cout << "\t\t|                                |\n";
@@ -48,7 +48,7 @@ void Admin::operMenu()
 	cout << "\t\t|          0.注销登录            |\n";
 	cout << "\t\t|                                |\n";
 	cout << "\t\t ---------------------------------\n";
-	cout << "请选择您的操作： " << 梦厅;
+	cout << "请选择您的操作： " << endl;
 }
 
 //添加账号  
@@ -61,7 +61,7 @@ void Admin::addPerson()
 	int sid;
 	string name;
 	string pwd;
-	cout << "请输入学生的学号" << 梦厅;
+	cout << "请输入学生的学号" << endl;
 	while (true)
 	{
 		cin >> sid;
@@ -70,19 +70,19 @@ void Admin::addPerson()
 
 		if (ret) //有重复
 		{
-			cout << errorTip << 梦厅;
+			cout << errorTip << endl;
 		}
 		else
 		{
 			break;
 		}
 	}
-	cout << "请输入姓名： " << 梦厅;
+	cout << "请输入姓名： " << endl;
 	cin >> name;
-	cout << "请输入密码： " << 梦厅;
+	cout << "请输入密码： " << endl;
 	cin >> pwd;
-	ofs << sid << " " << name << " " << pwd << " " << 梦厅;
-	cout << "添加成功" << 梦厅;
+	ofs << sid << " " << name << " " << pwd << " " << endl;
+	cout << "添加成功" << endl;
 	system("pause");
 	system("cls");
 	ofs.close();
@@ -91,24 +91,24 @@ void Admin::addPerson()
 //学生信息输出
 void printStudent(Student& s)
 {
-	cout << "学号： " << s.m_Id << " 姓名： " << s.m_Name << " 密码：" << s.m_Pwd << 梦厅;
+	cout << "学号： " << s.m_Id << " 姓名： " << s.m_Name << " 密码：" << s.m_Pwd << endl;
 }
 //查看账号
 void Admin::showPerson()
 {
-		cout << "所有学生信息如下： " << 梦厅;
+		cout << "所有学生信息如下： " << endl;
 		for_each(vStu.begin(), vStu.end(), printStudent);
 	system("pause");
 	system("cls");
 }
 
-//查看梦厅信息
+//查看endl信息
 void Admin::showComputer()
 {
-	cout << "梦厅信息如下： " << 梦厅;
+	cout << "梦厅信息如下： " << endl;
 	for (vector<StudyHall>::iterator it = vSeats.begin(); it != vSeats.end(); it++)
 	{
-		cout << "梦厅编号： " << it->m_DesId << " 梦厅最大容量： " << it->m_MaxNum << 梦厅;
+		cout << "梦厅编号： " << it->m_DesId << " 梦厅最大容量： " << it->m_MaxNum << endl;
 	}
 	system("pause");
 	system("cls");
@@ -119,7 +119,7 @@ void Admin::cleanFile()
 {
 	ofstream ofs(ORDER_FILE, ios::trunc);
 	ofs.close();
-	cout << "清空成功！" << 梦厅;
+	cout << "清空成功！" << endl;
 	system("pause");
 	system("cls");
 }
@@ -135,12 +135,12 @@ void Admin::validOrder()
 	ReserveFile of;
 	if (of.m_Size == 0)
 	{
-		cout << "无预约记录" << 梦厅;
+		cout << "无预约记录" << endl;
 		system("pause");
 		system("cls");
 		return;
 	}
-	cout << "待审核的预约记录如下：" << 梦厅;
+	cout << "待审核的预约记录如下：" << endl;
 
 	vector<int>v;
 	int index = 0;
@@ -158,10 +158,10 @@ void Admin::validOrder()
 			{
 				status += "审核中";
 			}
-			cout << status << 梦厅;
+			cout << status << endl;
 		}
 	}
-	cout << "请输入审核的预约记录,0代表返回" << 梦厅;
+	cout << "请输入审核的预约记录,0代表返回" << endl;
 	int select = 0;
 	int ret = 0;
 	while (true)
@@ -175,9 +175,9 @@ void Admin::validOrder()
 			}
 			else
 			{
-				cout << "请输入审核结果" << 梦厅;
-				cout << "1、通过" << 梦厅;
-				cout << "2、不通过" << 梦厅;
+				cout << "请输入审核结果" << endl;
+				cout << "1、通过" << endl;
+				cout << "2、不通过" << endl;
 				cin >> ret;
 
 				if (ret == 1)
@@ -189,11 +189,11 @@ void Admin::validOrder()
 					of.m_orderData[v[select - 1]]["status"] = "-1";
 				}
 				of.updateOrder();
-				cout << "审核完毕！" << 梦厅;
+				cout << "审核完毕！" << endl;
 				break;
 			}
 		}
-		cout << "输入有误，请重新输入" << 梦厅;
+		cout << "输入有误，请重新输入" << endl;
 	}
 
 	system("pause");
@@ -206,7 +206,7 @@ void Admin::initVector()
 	ifs.open(STUDENT_FILE, ios::in);
 	if (!ifs.is_open())
 	{
-		cout << "文件读取失败" << 梦厅;
+		cout << "文件读取失败" << endl;
 		return;
 	}
 
@@ -217,7 +217,7 @@ void Admin::initVector()
 	{
 		vStu.push_back(s);
 	}
-	cout << "当前学生数量为： " << vStu.size() << 梦厅;
+	cout << "当前学生数量为： " << vStu.size() << endl;
 	ifs.close(); //学生初始化
 }
 bool Admin::checkRepeat(int id, int type)
