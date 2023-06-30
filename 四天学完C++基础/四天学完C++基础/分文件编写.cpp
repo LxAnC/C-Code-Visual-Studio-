@@ -21,9 +21,9 @@ int main()
 	//cout << sizeof(double) << endl;
 	//cout << sizeof(float) << endl;
 	//cout << sizeof(bool) << endl;
-	
+
 	//不长不短的和正常的是一样的，为什么呢？long型在linux中是8位
-	
+
 	//cout << "sizeof(short)=" << sizeof(short) << endl;
 	//cout << "sizeof(unsigned short)=" << sizeof(unsigned short) << endl;
 	//cout << "sizeof(int)=" << sizeof(int) << endl;
@@ -37,12 +37,12 @@ int main()
 
 
 	//整型的书写
-	
+
 	//二进制，以0b或者0B开头
 	/*int a = 0b101;
 	int c = 0B0101;
 	cout << a << "   " << c << endl;*/
-	
+
 	//八进制
 	/*int d = 01234;
 	int e = 03445;
@@ -76,7 +76,7 @@ int main()
 	//printf("float a=%f\n", a);
 	//printf("double b=%lf\n", b);
 	//printf("long double c=%lf\n", c);
-	
+
 
 	//对齐输出格式可以使用\t
 	//cout << "1\t西施" << endl;
@@ -94,7 +94,41 @@ int main()
 	cin >> b;
 	a = "姓名：" + a + "，性别：" + b;
 	cout << a;\*/
+	//全是常量的时候千万不要加+号连接，因为会编译报错
+	//多行编写string类型的时候可以把几个字符串分行写
+	//string a = "asdadsad"
+	//	"12312"
+	//	"陆续惨你"
+	//	"asd";
+	//cout << a;
 
+	//是否可以分离
+	//string a = "asdasdsa
+	//	sadasdasa啊实打实
+	//	 ";
+		//不行编译器报错
+
+
+//布尔型数据
+//true和false表示着1和0；
+//bool a = true, b = false;
+//cin >> a;
+//cin >> b;
+//cout << "a=" << a << ",b=" << b << endl;
+//cout << sizeof(a) << "  " << sizeof(b);
+//cout << a + b << endl;
+
+
+//找到布尔类型变量的内存，把里面的数据强制修改为8
+//bool b = false;
+//char* c = (char*)&b;
+//*c = 8;
+//cout << "b=" << b << endl;
+//
+//
+//
+//布尔类型本质上是unsigned int
+//true和false是语法上一个处理
 }
 //int max(int a, int b)
 //{
