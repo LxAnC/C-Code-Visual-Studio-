@@ -49,9 +49,30 @@ int main()
 	cout << "八进制的数" << d << "and" << e << endl;*/
 
 	//十六进制
-	int l = 0x101;
-	int k = 0x202;
-	cout << "十六进制的数" << l << "and" << k << endl;
+	//int l = 0x101;
+	//int k = 0x202;
+	//cout << "十六进制的数" << l << "and" << k << endl;\
+
+	//C++11的longlong类型
+	/*long long a = 2147483647;
+	long b = 2147483660;
+	cout << a << "   " << sizeof(a) << endl;
+	cout << b << "   " << sizeof(b) << endl;*/
+	//windows下的long是4字节也就是32位，longlong为8字节
+	//linux下的long和longlong是一样的宽度都8字节
+
+	//浮点数据类型
+	/*float a = 12345.2323;
+	double b = 12345.2323;
+	long double c = 12345.2323;
+	cout << a <<"  "<< sizeof(a) << "   " << b << "  " << sizeof(b) << endl;
+	cout << c << "  " << sizeof(c);*/
+	//windows下的double和long double位数都是8位
+	//linux下的double是8位而；long double是16位
+	float a = 1234123213.123123;
+	double b = 1234123213.123123;
+	long double c = 123412321321313.123123;
+	cout << a << "   " << b << "  " << c << endl;
 }
 //int max(int a, int b)
 //{
