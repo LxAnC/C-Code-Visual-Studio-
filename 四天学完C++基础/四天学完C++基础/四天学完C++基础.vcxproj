@@ -128,6 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1.书写.cpp" />
+    <ClCompile Include="分文件编写.cpp" />
+    <ClCompile Include="数据类型.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="girls.h" />
+    <ClInclude Include="tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
