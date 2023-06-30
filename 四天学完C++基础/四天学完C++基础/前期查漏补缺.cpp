@@ -136,12 +136,35 @@ int main()
 //关于无符号的类型或者说是所有类型的长度
 //因为范围被超过
 //所以被截取精度了
-unsigned short a = 65535+1;
+//unsigned short a = 65535+1;
 //当范围超出之后的截取规则
 //unsigned short 01111111111111111111
 //unsigned short 10000000000000000000
 //截取是由高位开始截取，所以这个截取到的已经是后面的0了。所以会没有
-cout << a;
+//cout << a;
+
+//采用强制类型转换可以让警告信息不再出现
+//int a =(int)25.55;
+//cout << a;
+
+//类型转换符号的优先级比较高是t1，不确定可以加括号（t1的第二位）
+//优先级最高的是数组封号
+
+
+//数据类型的别名
+//可以兼容其他平台
+//typedef
+//常用类型：unsigned int ,long long, unsigned long long
+//
+//typedef unsigned int uint;
+//typedef long long  llong;
+//typedef unsigned long long ull;
+//uint a = 1;
+//llong b = 2;
+//ull c = 3;
+//cout << a << "  " << b << "  " << c << endl;
+//cout << sizeof(a) << " " << sizeof(b) << " " << sizeof(c) << endl;
+
 }
 //int max(int a, int b)
 //{
