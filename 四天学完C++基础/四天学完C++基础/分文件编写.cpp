@@ -24,12 +24,12 @@ int main()
 	
 	//不长不短的和正常的是一样的，为什么呢？long型在linux中是8位
 	
-	cout << "sizeof(short)=" << sizeof(short) << endl;
-	cout << "sizeof(unsigned short)=" << sizeof(unsigned short) << endl;
-	cout << "sizeof(int)=" << sizeof(int) << endl;
-	cout << "sizeof(unsigned int)=" << sizeof(unsigned int) << endl;
-	cout << "sizeof(long)=" << sizeof(long) << endl;
-	cout << "sizeof(unsigned long)=" << sizeof(unsigned long) << endl;
+	//cout << "sizeof(short)=" << sizeof(short) << endl;
+	//cout << "sizeof(unsigned short)=" << sizeof(unsigned short) << endl;
+	//cout << "sizeof(int)=" << sizeof(int) << endl;
+	//cout << "sizeof(unsigned int)=" << sizeof(unsigned int) << endl;
+	//cout << "sizeof(long)=" << sizeof(long) << endl;
+	//cout << "sizeof(unsigned long)=" << sizeof(unsigned long) << endl;
 	/*unsigned short a = -2;
 	cout << a << endl;
 	cout << 2 <<2;*/
@@ -69,13 +69,32 @@ int main()
 	cout << c << "  " << sizeof(c);*/
 	//windows下的double和long double位数都是8位
 	//linux下的double是8位而；long double是16位
-	float a = 1234123211233.123123;
-	double b = 1234123213.123123121;
-	long double c = 123412321321313.123123;
-	cout << a << "   " << b << "  " << c << endl;
-	printf("float a=%f\n", a);
-	printf("double b=%lf\n", b);
-	printf("long double c=%lf\n", c);
+	//float a = 1234123211233.123123;
+	//double b = 1234123213.123123121;
+	//long double c = 123412321321313.123123;
+	//cout << a << "   " << b << "  " << c << endl;
+	//printf("float a=%f\n", a);
+	//printf("double b=%lf\n", b);
+	//printf("long double c=%lf\n", c);
+	
+
+	//对齐输出格式可以使用\t
+	//cout << "1\t西施" << endl;
+	//cout << "20\t杨玉环" << endl;
+	//cout << "3000\t露娜" << endl;
+
+	//不让转义字符生效的如何执行是
+	/*string s = R"(D:\Download\Windows.Cowabunga.Lite)";
+	cout << s;*/
+
+	//string类的简单用法,可以使用+号连接字符串
+	/*string a;
+	string b;
+	cin >> a;
+	cin >> b;
+	a = "姓名：" + a + "，性别：" + b;
+	cout << a;\*/
+
 }
 //int max(int a, int b)
 //{
