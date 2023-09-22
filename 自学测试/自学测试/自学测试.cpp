@@ -4,8 +4,8 @@ using namespace std;
 class Student
 {
 private:
-	string num;
- string name;
+	string num="";
+    string name="";
 	double grade[3];
 	double totalscore;
 public:
@@ -18,7 +18,8 @@ public:
 };
 int main() {
 	int m[3] = { 60,70,80 };
-	Student s("101", "wang", m);
+	string d = "191";
+	Student s(d, "wang", m);
 	s.display();
 	Student a[3];
 	int i;
@@ -76,7 +77,7 @@ int findmax(Student a[], int n)
 {
 	int max = a[0].count();
 	int p = 0;
-	for (int i = 1; i < 2; i++)
+	for (int i = 1; i <3 ; i++)
 		if (max < a[i].count())
 		{
 			max = a[i].count();
