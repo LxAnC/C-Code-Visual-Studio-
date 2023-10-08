@@ -18,10 +18,13 @@
     <ClCompile Include="..\排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="第2周上机作业.cpp">
+    <ClCompile Include="顺序表的操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="第三次数据结构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="单链表的操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
