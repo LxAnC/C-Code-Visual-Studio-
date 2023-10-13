@@ -18,5 +18,8 @@
     <ClCompile Include="自学测试.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="爱心曲线.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
