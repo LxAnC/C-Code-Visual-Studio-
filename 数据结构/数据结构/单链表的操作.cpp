@@ -108,31 +108,31 @@ Status Deletedata(Linklist& L, int i) {
 }
 int LinkLength(Linklist& L) {
 	int i = 0;
-	Linklist P = new Lnode;
-	P = L->next;
-	while (P != NULL) {
-		P = P->next; i++;
+	Linklist P = new Lnode; //创建
+	P = L->next; //指向头结点之后
+	while (P != NULL) { //判断
+		P = P->next; i++; //依次遍历,同时计数
 	}
 	if (i)
-		cout << "长度为" << i << endl;
+		cout << "长度为" << i << endl; //输出长度
 	else
-		cout << "单链表为空" << endl;
-	return i;
+		cout << "单链表为空" << endl;//为0就为空链表
+	return i; //返回
 }
 Status ReserveLink(Linklist& L)
 {
-	if (L == NULL)
+	if (L == NULL)//为空则不需要置逆
 		return NO;
-	Linklist P = L->next;
-	L->next = NULL;
-	while (P)
+	Linklist P = L->next;//将头结点之后的赋值给P
+	L->next = NULL; //头结点截断
+	while (P)//循环条件为当前L->next不为空
 	{
 
-        InsertElem(L, 1, P->data);
-		P = P->next;
+        InsertElem(L, 1, P->data); //调用插入方法
+		P = P->next; //依次遍历
 	}
 	
-	return OK;
+	return OK;//成功输出OK
 }
 void menu() {
 	int n;
