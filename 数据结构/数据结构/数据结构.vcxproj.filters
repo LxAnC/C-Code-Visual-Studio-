@@ -27,5 +27,14 @@
     <ClCompile Include="单链表的操作.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="栈的使用.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="循环队列的创建.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50页第一算法题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
