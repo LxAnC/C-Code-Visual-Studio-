@@ -83,9 +83,6 @@ Status Output(Linklist& L)
 	}
 	return OK;
 }
-
-
-
 Status Deletedata(Linklist& L, int i) {
 	Linklist p = L; int j = 0;
 	while (p && j < i - 1)
@@ -135,7 +132,8 @@ void intergrate(Linklist& L1, Linklist& L2) //合并两张表
 			P2 = P2->next;
 			f++;
 		}
-		if (P1 == NULL) {
+		if (P1 == NULL) 
+		{
 			InsertElem(L1, f++, P2->data);
 			P2 = P2->next;
 		}
