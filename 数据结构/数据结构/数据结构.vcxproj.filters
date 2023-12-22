@@ -54,5 +54,8 @@
     <ClCompile Include="逆邻接表.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="期末复习.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
