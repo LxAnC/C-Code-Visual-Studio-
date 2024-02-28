@@ -25,6 +25,4 @@ int main()
 			break;
 
 	}
-	for (i = 0; i < 11; i++)
-		cout << a[i] << " ";
 }
