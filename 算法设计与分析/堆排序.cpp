@@ -16,6 +16,8 @@ void Buildheap(int a[], int start, int end)
 			dad = son;
 			son = dad * 2 + 1;
 		}
+		else
+			return ;
 	}
 
 }
@@ -31,8 +33,9 @@ void sort_heap(int a[], int len)
 }
 int main()
 {
-	int a[] = { 1,3,6,4,9,7,8,5,2,1,0,98,33,55 }, i, j, len = 14;
+	int a[] = { 1,3,6,4,9,7,8,5,2,1,0,98,33,55 };
+	int len = sizeof(a)/sizeof(a[0]);
 	sort_heap(a, len);
-	for (int i = 0; i < 14; i++)
+	for (int i = 0; i <len; i++)
 		cout << a[i] << " ";
 }
