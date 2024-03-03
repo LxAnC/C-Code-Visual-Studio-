@@ -5,7 +5,7 @@ using namespace std;
 #include<vector>
 using namespace std;
 const int BUCKET_NUM = 100;
-
+//м╟ее
 struct ListNode {
 	explicit ListNode(int i = 0) :mData(i), mNext(NULL) {}
 	ListNode* mNext;
