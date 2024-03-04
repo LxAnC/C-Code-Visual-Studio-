@@ -1,23 +1,44 @@
-#include <iostream>
+#include<iostream>
+#include<vector>
 using namespace std;
-class A
-{
-public:
-    A(int i = 5)
-    {
-        m_a = i;
-    }
-private:
-    int m_a;
+int n, num,x,s;
+struct  wh {
+    int number;
+    int a[1000] ;
+    int up = 0;
 };
-
 int main()
 {
-    A s;
-    //我们会发现,我们没有重载'='运算符,但是去可以把内置的int类型赋值给了对象A.
-    s = 10;
-    //实际上,10被隐式转换成了下面的形式,所以才能这样.
-    //s = A temp(10);
-    system("pause");
-    return 0;
+    
+    cin >> n >> num;
+    struct wh b[100] = { 0 };
+    for (int i = 1; i <= n; i++)
+    {
+        b[i].number = i;
+        for (int j = 1; j <= num; j++)
+        {
+            cin >> x;
+            b[i].a[j] = x;
+      }
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        
+       
+        for (int j = 1; j != i && j <= n; j++)
+        {
+            int u=1; s = 0;
+            while (u <= num)
+            {de
+                
+                
+                if (b[i].a[u] > b[j].a[u])
+                    s++;u++;
+            }
+            if(s==num)
+            b[i].up = j;
+        }
+    }
+    for (int i = 1; i <= n; i++)
+        cout << b[i].up << " ";
 }
