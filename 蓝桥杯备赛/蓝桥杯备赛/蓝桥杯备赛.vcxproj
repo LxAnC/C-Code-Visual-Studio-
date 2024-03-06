@@ -145,7 +145,10 @@
     <ClCompile Include="x64\滑动窗口3最⼤连续1的个数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口4将x减到0的最⼩操作数.cpp" />
+    <ClCompile Include="x64\滑动窗口4将x减到0的最⼩操作数.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="x64\滑动窗口5水果成篮.cpp" />
     <ClCompile Include="x64\滑动窗口之不重复的字符数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
