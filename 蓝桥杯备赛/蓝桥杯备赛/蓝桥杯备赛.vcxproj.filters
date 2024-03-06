@@ -33,5 +33,8 @@
     <ClCompile Include="x64\有效三角形的规划.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\选数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
