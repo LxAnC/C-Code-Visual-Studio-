@@ -42,5 +42,8 @@
     <ClCompile Include="x64\滑动窗口之最长子组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\滑动窗口之不重复的字符数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
