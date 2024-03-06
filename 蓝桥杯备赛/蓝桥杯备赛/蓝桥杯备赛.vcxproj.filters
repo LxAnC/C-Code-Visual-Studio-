@@ -48,5 +48,8 @@
     <ClCompile Include="x64\滑动窗口3最⼤连续1的个数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\滑动窗口4将x减到0的最⼩操作数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
