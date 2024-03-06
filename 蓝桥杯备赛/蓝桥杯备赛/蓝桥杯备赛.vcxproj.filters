@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Part1.1.1.cpp">
+    <ClCompile Include="x64\Part1.1.1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="part2.cpp">
+    <ClCompile Include="x64\part2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="x64\打字练习.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="快乐数.cpp">
+    <ClCompile Include="x64\快乐数.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="x64\水杯最大容量.cpp">
@@ -34,6 +34,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="x64\选数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="x64\四数之和.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
