@@ -69,5 +69,8 @@
     <ClCompile Include="x64\二分简单题(练手).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\二分算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
