@@ -75,5 +75,8 @@
     <ClCompile Include="x64\二分算法之853山峰序列.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\二分算法之求峰值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
