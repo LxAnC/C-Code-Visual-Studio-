@@ -81,5 +81,8 @@
     <ClCompile Include="x64\二分算法之找旋转之前最小元素.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\二分算法之173点名,最优算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
