@@ -69,7 +69,7 @@
     <ClCompile Include="x64\二分简单题(练手).cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="x64\二分算法.cpp">
+    <ClCompile Include="x64\二分算法求x平方根二分力扣69.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
