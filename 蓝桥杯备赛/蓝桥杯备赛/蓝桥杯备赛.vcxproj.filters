@@ -60,5 +60,8 @@
     <ClCompile Include="x64\滑动窗口7寻找字符串的异位力扣30.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\二分算法1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
