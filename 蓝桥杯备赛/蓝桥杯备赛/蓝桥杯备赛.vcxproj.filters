@@ -90,5 +90,8 @@
     <ClCompile Include="x64\前缀和\前缀和数组矩阵求子矩阵.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\前缀和\前缀和.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
