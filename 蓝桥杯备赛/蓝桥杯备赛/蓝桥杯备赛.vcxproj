@@ -127,77 +127,77 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="x64\Part1.1.1.cpp">
+    <ClCompile Include="x64\双指针\Part1.1.1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\part2.cpp">
+    <ClCompile Include="x64\双指针\part2.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分简单题(练手).cpp">
+    <ClCompile Include="x64\二分算法\二分简单题%28练手%29.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法之173点名,最优算法.cpp">
+    <ClCompile Include="x64\二分算法\二分算法之173点名,最优算法.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法之853山峰序列.cpp">
+    <ClCompile Include="x64\二分算法\二分算法之853山峰序列.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法1力扣34排序找target边界.cpp">
+    <ClCompile Include="x64\二分算法\二分算法1力扣34排序找target边界.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法之找旋转之前最小元素.cpp">
+    <ClCompile Include="x64\二分算法\二分算法之找旋转之前最小元素.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法之求峰值.cpp">
+    <ClCompile Include="x64\二分算法\二分算法之求峰值.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\二分算法求x平方根二分力扣69.cpp">
+    <ClCompile Include="x64\二分算法\二分算法求x平方根二分力扣69.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\前缀和.cpp" />
-    <ClCompile Include="x64\前缀和数组.cpp">
+    <ClCompile Include="x64\前缀和\前缀和.cpp" />
+    <ClCompile Include="x64\前缀和\前缀和数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\四数之和.cpp">
+    <ClCompile Include="x64\双指针\四数之和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\有效三角形的规划.cpp">
+    <ClCompile Include="x64\双指针\有效三角形的规划.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\水杯最大容量.cpp">
+    <ClCompile Include="x64\双指针\水杯最大容量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口3最⼤连续1的个数.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口3最⼤连续1的个数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口4将x减到0的最⼩操作数.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口4将x减到0的最⼩操作数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口5水果成篮.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口5水果成篮.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口6字符串异位.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口6字符串异位.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口7寻找字符串的异位力扣30.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口7寻找字符串的异位力扣30.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口之不重复的字符数组.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口之不重复的字符数组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口之最长子组.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口之最长子组.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\滑动窗口困难题76覆盖最小字串.cpp">
+    <ClCompile Include="x64\滑动窗口\滑动窗口困难题76覆盖最小字串.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\选数.cpp">
+    <ClCompile Include="x64\双指针\选数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\快乐数.cpp">
+    <ClCompile Include="x64\双指针\快乐数.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\打字练习.cpp">
+    <ClCompile Include="x64\双指针\打字练习.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
