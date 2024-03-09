@@ -102,5 +102,8 @@
     <ClCompile Include="x64\前缀和\前缀和蓝桥杯原题.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\前缀和\前缀和之连续数组(难).cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
