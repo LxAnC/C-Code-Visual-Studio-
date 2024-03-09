@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="x64\前缀和\前缀和之矩阵1314难题.cpp" />
+    <ClCompile Include="x64\位运算\位运算常见操作附加三道简单题.cpp" />
+    <ClCompile Include="x64\前缀和\前缀和之矩阵1314难题.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="x64\前缀和\前缀和之连续数组(难).cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
