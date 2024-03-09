@@ -99,5 +99,8 @@
     <ClCompile Include="x64\前缀和\前缀和求和为k的子数组.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="x64\前缀和\前缀和蓝桥杯原题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
