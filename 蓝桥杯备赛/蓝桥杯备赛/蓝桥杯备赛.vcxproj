@@ -154,6 +154,7 @@
     <ClCompile Include="x64\二分算法求x平方根二分力扣69.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="x64\前缀和数组.cpp" />
     <ClCompile Include="x64\四数之和.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
