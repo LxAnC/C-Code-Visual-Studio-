@@ -136,7 +136,9 @@
     <ClCompile Include="x64\位运算\位运算找出只出现一次的理解.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\位运算\位运算之消失的两个数字.cpp" />
+    <ClCompile Include="x64\位运算\位运算之消失的两个数字.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="x64\前缀和\前缀和之矩阵1314难题.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
