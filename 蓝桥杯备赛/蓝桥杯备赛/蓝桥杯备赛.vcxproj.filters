@@ -114,7 +114,7 @@
     <ClCompile Include="x64\位运算\位运算之两数相加.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="x64\位运算\位运算找出只出现一次的数.cpp">
+    <ClCompile Include="x64\位运算\位运算找出只出现一次的理解.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
