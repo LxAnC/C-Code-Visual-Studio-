@@ -199,7 +199,10 @@
     <ClCompile Include="x64\双指针\水杯最大容量.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="x64\模拟算法\提莫攻击.cpp" />
+    <ClCompile Include="x64\模拟算法\买瓜蓝桥杯省赛.cpp" />
+    <ClCompile Include="x64\模拟算法\提莫攻击.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="x64\模拟算法\源.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
