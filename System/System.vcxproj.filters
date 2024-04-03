@@ -15,28 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="直接插入排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="希尔排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="快速排序%27.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="堆排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="桶排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Explicit.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="冒泡排序.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="棋盘覆盖8乘法8cpp.cpp">
+    <ClCompile Include="银行家算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
